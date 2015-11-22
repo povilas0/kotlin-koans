@@ -34,4 +34,4 @@ fun todoTask4(): Nothing = TODO(
     documentation = doc4(),
     references = { getPattern(); month })
 
-fun task4(): String = todoTask4()
+fun task4(): String = """\w+\s\w+\s\(\d{2}\s$month\s\d{4}\)"""
